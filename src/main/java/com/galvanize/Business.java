@@ -13,7 +13,9 @@ public class Business implements Addressable {
   public String getName() { return name; }
 
   @Override
-  public List<Address> getAddresses(){ return addresses; }
+  public List<Address> getAddresses(){
+    return this.addresses;
+  }
 
   @Override
   public void addAddress(Address address) {

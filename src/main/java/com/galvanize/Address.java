@@ -20,19 +20,19 @@ public class Address {
 
 
   public void setStreet(String newStreet) {
-    street = newStreet;
+    this.street = newStreet;
   }
 
   public void setCity(String newCity) {
-    city = newCity;
+    this.city = newCity;
   }
 
   public void setState(String newState) {
-    state = newState;
+    this.state = newState;
   }
 
   public void setZip(String newZip) {
-    zip = newZip;
+    this.zip = newZip;
   }
 
   @Override
