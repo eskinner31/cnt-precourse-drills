@@ -13,9 +13,7 @@ public class Business implements Addressable {
   public String getName() { return name; }
 
   @Override
-  public List<Address> getAddresses(){
-    return this.addresses;
-  }
+  public List<Address> getAddresses(){ return addresses; }
 
   @Override
   public void addAddress(Address address) {
